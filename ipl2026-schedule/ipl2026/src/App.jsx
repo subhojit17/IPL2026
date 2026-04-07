@@ -243,7 +243,7 @@ function MenuItem({ emoji, label, hint, onClick, last }) {
   const [hover, setHover] = useState(false);
   return (
     <button onClick={onClick}
-      {/* onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} */}
+      /* onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} */
       style={{
         width: "100%", textAlign: "left", cursor: "pointer", fontFamily: "inherit",
         background: hover ? "rgba(255,255,255,0.07)" : "transparent",
