@@ -225,7 +225,7 @@ function CalendarPicker({ match, added, onAdd }) {
       {open && (
         <div style={{
           position: "absolute", top: "calc(100% + 6px)", left: 0, zIndex: 200,
-          background: "#1c2130", border: "1px solid rgba(255,255,255,0.13)",
+          background: "#091024", border: "1px solid rgba(255,255,255,0.13)",
           borderRadius: 10, overflow: "hidden", minWidth: 210,
           boxShadow: "0 16px 40px rgba(0,0,0,0.7)",
           animation: "pop 0.13s ease",
